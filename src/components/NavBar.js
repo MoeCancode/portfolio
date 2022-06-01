@@ -3,9 +3,9 @@ const NavBar = () => {
     <>
       <nav className="navbar navbar-expand-lg navbar-dark">
         <div className="container-fluid">
-          <div className="navbar-brand" href="#">
+          {/* <div className="navbar-brand" href="#">
             <img id="smallPic" alt="Profile" src="../public/assets/cropped.jpg"/>
-            </div>
+            </div> */}
           
           <button
             className="navbar-toggler"
