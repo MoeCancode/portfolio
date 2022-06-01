@@ -1,11 +1,12 @@
-const Header = () => {
+const NavBar = () => {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
-            <img id="smallPic" />
-          </a>
+          <div className="navbar-brand" href="#">
+            <img id="smallPic" alt="Profile" src="../public/assets/cropped.jpg"/>
+            </div>
+          
           <button
             className="navbar-toggler"
             type="button"
@@ -44,4 +45,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default NavBar;

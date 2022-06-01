@@ -1,9 +1,9 @@
-import Header from "./Header";
+import NavBar from "./components/NavBar";
 
 function App() {
   return (
-    <div className="App">
-      <Header/>
+    <div className="app" style={{backgroundColor: "black"}}>
+      <NavBar/>
     </div>
   );
 }
