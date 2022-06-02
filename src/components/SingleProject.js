@@ -8,12 +8,12 @@ const SingleProject = (props) => {
                         {props.projectName}
                     </span>
                     <div className="pt-8 text-center">
-                        <a>
+                        <a href={props.repo}>
                             <button className="text-center rounded-md bg-black px-4 py-3 m-2 text-[#c27137] font-bold text-lg">
                                 GitHub Repo
                             </button>
                         </a>
-                        <a>
+                        <a href={props.deployed}>
                             <button className="text-center rounded-md bg-black px-4 py-3 m-2 text-[#c27137] font-bold text-lg">
                                 Deployed Link
                             </button>
