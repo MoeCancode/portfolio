@@ -20,7 +20,7 @@ const Header = () => {
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#000000] text-[#FFFFFF] font-bold">
       {/* My picture  */}
       <div>
-        <img
+        <img className="border-4 border-[#c27137]"
           src={DP}
           alt="Display Picture"
           style={{ width: "55px", height: "auto", borderRadius: "50%" }}
@@ -30,7 +30,7 @@ const Header = () => {
       {/* Nav Links */}
       <ul className="hidden md:flex">
         <li>Home</li>
-        <li>Skills</li>
+        <li>About</li>
         <li>Projects</li>
         <li>Contact</li>
         <li>Resume</li>
@@ -57,7 +57,7 @@ const Header = () => {
       </ul>
 
       {/* Socials */}
-      <div className="flex fixed flex-col top-[35%] left-0">
+      <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#000000]" style={{color: "pink", border: "1px solid pink"}}>
             <a href="https://github.com/MoeCancode/" className="flex justify-between items-center w-full">
