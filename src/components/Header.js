@@ -8,6 +8,7 @@ import {
   FaDiceFive,
   FaFileAlt
 } from "react-icons/fa";
+import {Link} from "react-scroll";
 
 const Header = () => {
   const [navMode, setNavMode] = useState(false);
@@ -29,11 +30,19 @@ const Header = () => {
 
       {/* Nav Links */}
       <ul className="hidden md:flex">
-        <li>Home</li>
-        <li>About</li>
-        <li>Projects</li>
-        <li>Contact</li>
-        <li>Resume</li>
+        <li><Link to="home" smooth={true} duration={500}>
+          Home
+        </Link>
+        </li>
+        <li><Link to="about" smooth={true} duration={500}>
+          About
+        </Link></li>
+        <li><Link to="projects" smooth={true} duration={500}>
+          Projects
+        </Link></li>
+        <li><Link to="contact" smooth={true} duration={500}>
+          Contact
+        </Link></li>
       </ul>
 
       {/* Collapsed menu icon */}
@@ -49,11 +58,19 @@ const Header = () => {
             : "hidden"
         }
       >
-        <li className="py-6 text-4xl">Home</li>
-        <li className="py-6 text-4xl">Skills</li>
-        <li className="py-6 text-4xl">Projects</li>
-        <li className="py-6 text-4xl">Contact</li>
-        <li className="py-6 text-4xl">Resume</li>
+        <li className="py-6 text-4xl"><Link to="home" smooth={true} duration={500}>
+          Home
+        </Link></li>
+        <li className="py-6 text-4xl"><Link to="about" smooth={true} duration={500}>
+          About
+        </Link></li>
+        <li className="py-6 text-4xl"><Link to="projects" smooth={true} duration={500}>
+          Projects
+        </Link></li>
+        <li className="py-6 text-4xl"><Link to="contact" smooth={true} duration={500}>
+          Contact
+        </Link></li>
+        <li className="py-6 text-4xl"><a href="https://drive.google.com/file/d/1yHR2GHoHAl7Lk1ZjDfdkKc5mvRDyIM4m/view?usp=sharing">Resume</a></li>
       </ul>
 
       {/* Socials */}
