@@ -4,8 +4,8 @@ const About = () => {
   return (
     <div name="about" className="w-full h-screen text-[#c27137]">
       <div className="flex flex-col justify-center items-center w-full h-full">
-        <div className="max-w-[1000px] w-full sm:grid grid-cols-2 gap-8">
-          <div className="sm:text-right pb-8 pl-4">
+        <div className="max-w-[1000px] w-full md:grid grid-cols-2 gap-8">
+          <div className="md:text-right pb-8 pl-4">
             <p className="text-4xl font-bold inline border-b-4 border-dashed border-white">
               About Me
             </p>
@@ -13,7 +13,7 @@ const About = () => {
 
           <div></div>
 
-          <div className="max-w-[1000px] w-full  text-white sm:text-right px-8">
+          <div className="max-w-[1000px] w-full  text-white md:text-right px-8">
             <p className="font-bold">
               <span className="text-2xl font-bold text-[#c27137]">
                 Full-Stack Web Developer <br></br>
@@ -26,7 +26,7 @@ const About = () => {
               call/message/email away!
             </p>
           </div>
-          <div className="max-w-[1000px] w-full font-bold mt-10 sm:mt-0 px-8">
+          <div className="max-w-[1000px] w-full font-bold mt-10 md:mt-0 px-8">
             <p className="text-2xl font-bold text-[#c27137] mb-4">Skills</p>
             <table className="border-collapse border border-slate-500">
               <thead>
