@@ -2,7 +2,7 @@ import React from 'react'
 
 const SingleProject = (props) => {
   return (
-    <div style={{backgroundImage: `url(${props.projectImage})`}} className="shadow-lg shadow-[#151f2e] group container rounded-md flex justify-center items-center mx-auto customCard">
+    <div style={{backgroundImage: `url(${props.projectImage})`}} className="shadow-lg shadow-[#0e1520] group container rounded-md flex justify-center items-center mx-auto customCard">
                 <div className="opacity-0 group-hover:opacity-100">
                     <span className="text-2xl font-bold text-white rounded-md px-3 py-2" style={{backgroundColor: "#c27137"}}>
                         {props.projectName}

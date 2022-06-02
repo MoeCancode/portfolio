@@ -14,13 +14,12 @@ const Projects = () => {
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl text-[#c27137] font-bold inline border-b-4 border-dashed border-white">Projects</p>
-          <p className="font-bold text-white py-6">
-            Click Project Name to visit Github Repository. Click image to visit
-            Deployed link.
+          <p className="font-bold text-white py-3">
+            Hover over a project to see more options.
           </p>
         </div>
 
-        <div  className="grid sm:grid-cols-2 md:grid-cols-3 gap-8" >
+        <div  className="grid sm:grid-cols-2 md:grid-cols-3 gap-6" >
             
             
             {/* SingleProject component */}
