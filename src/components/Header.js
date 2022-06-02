@@ -18,7 +18,7 @@ const Header = () => {
   }
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#000000] text-[#FFFFFF] font-bold">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#000000] text-[#FFFFFF] font-bold border-b-2 border-solid border-[#c27137]">
       {/* My picture  */}
       <div>
         <img className="border-4 border-[#c27137]"
@@ -30,17 +30,17 @@ const Header = () => {
 
       {/* Nav Links */}
       <ul className="hidden md:flex">
-        <li><Link to="home" smooth={true} duration={500}>
+        <li className="hover:text-[#c27137]"><Link to="home" smooth={true} duration={500}>
           Home
         </Link>
         </li>
-        <li><Link to="about" smooth={true} duration={500}>
+        <li className="hover:text-[#c27137]"><Link to="about" smooth={true} duration={500}>
           About
         </Link></li>
-        <li><Link to="projects" smooth={true} duration={500}>
+        <li className="hover:text-[#c27137]"><Link to="projects" smooth={true} duration={500}>
           Projects
         </Link></li>
-        <li><Link to="contact" smooth={true} duration={500}>
+        <li className="hover:text-[#c27137]"><Link to="contact" smooth={true} duration={500}>
           Contact
         </Link></li>
       </ul>
