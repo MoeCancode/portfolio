@@ -1,7 +1,9 @@
 import React from "react";
+import {Link} from "react-scroll";
 
 
 const HeroSection = () => {
+
   return (
     <div name="home" className="w-full h-screen">
 
@@ -34,7 +36,9 @@ const HeroSection = () => {
           marginLeft: "auto"
         }} className="px-6 py-3 my-8 flex items-center"
       >
-        View Projects 
+        <Link to="projects" smooth={true} duration={500}>
+          My Projects
+        </Link>
       </button>
       </div>
 

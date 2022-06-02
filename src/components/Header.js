@@ -58,16 +58,16 @@ const Header = () => {
             : "hidden"
         }
       >
-        <li className="py-6 text-4xl"><Link to="home" smooth={true} duration={500}>
+        <li className="py-6 text-4xl"><Link onClick={toggleNav} to="home" smooth={true} duration={500}>
           Home
         </Link></li>
-        <li className="py-6 text-4xl"><Link to="about" smooth={true} duration={500}>
+        <li className="py-6 text-4xl"><Link onClick={toggleNav} to="about" smooth={true} duration={500}>
           About
         </Link></li>
-        <li className="py-6 text-4xl"><Link to="projects" smooth={true} duration={500}>
+        <li className="py-6 text-4xl"><Link onClick={toggleNav} to="projects" smooth={true} duration={500}>
           Projects
         </Link></li>
-        <li className="py-6 text-4xl"><Link to="contact" smooth={true} duration={500}>
+        <li className="py-6 text-4xl"><Link onClick={toggleNav} to="contact" smooth={true} duration={500}>
           Contact
         </Link></li>
         <li className="py-6 text-4xl"><a href="https://drive.google.com/file/d/1yHR2GHoHAl7Lk1ZjDfdkKc5mvRDyIM4m/view?usp=sharing">Resume</a></li>
