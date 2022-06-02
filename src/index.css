@@ -16,3 +16,18 @@ li {
     padding-right: 15px;
     cursor: pointer;
 }
+
+.customCard {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+}
+
+.customCard:hover {
+    background-image: linear-gradient(
+        to right,
+        rgba(255, 102, 0, 0.4),
+        hsla(243, 74%, 4%, 0.4)
+    ) !important;
+}
