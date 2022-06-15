@@ -18,7 +18,7 @@ const Header = () => {
   }
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#000000] text-[#FFFFFF] font-bold border-b-2 border-solid border-[#c27137]">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#020e1f] bg-opacity-50 text-[#FFFFFF] font-bold border-b-2 border-solid border-[#c27137]">
       {/* My picture  */}
       <div>
         <img className="border-4 border-[#c27137]"
