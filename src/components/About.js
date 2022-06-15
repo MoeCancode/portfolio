@@ -56,6 +56,10 @@ const About = () => {
                   <td className="border border-slate-700 text-white px-4">Webpack</td>
                   <td className="border border-slate-700 text-white px-4">Jest</td>
                 </tr>
+                <tr>
+                  <td className="border border-slate-700 text-white px-4">JSX</td>
+                  <td className="border border-slate-700 text-white px-4">Socket.io</td>
+                </tr>
               </tbody>
             </table>
           </div>
